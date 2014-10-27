@@ -29,6 +29,7 @@ if len(train_df.Age[ train_df.Age.isnull() ]) > 0:
     train_df.loc[ (train_df.Age.isnull()), 'Age'] = median_age
 
 # Remove the Name column, Cabin, Ticket, and Sex (since I copied and filled it to Gender)
+train_df_copy = train_df
 train_df = train_df.drop(['Name', 'Sex', 'Ticket', 'Cabin', 'PassengerId'], axis=1) 
 
 
@@ -67,18 +68,18 @@ if len(test_df.Fare[ test_df.Fare.isnull() ]) > 0:
         test_df.loc[ (test_df.Fare.isnull()) & (test_df.Pclass == f+1 ), 'Fare'] = median_fare[f]
 
 # Collect the test data's PassengerIds before dropping it
-ids = test_df.PassengerId.values
-# age_present_ids = test_df.PassengerId[test_df.agePresent == 1].values
-# age_absent_ids = test_df.PassengerId[test_df.agePresent == 0].values
+age_present_ids = test_df.PassengerId[test_df.agePresent == 1].values
+age_absent_ids = test_df.PassengerId[test_df.agePresent == 0].values
 
 # Remove the Name column, Cabin, Ticket, and Sex (since I copied and filled it to Gender)
+test_df_copy = test_df
 test_df = test_df.drop(['Name', 'Sex', 'Ticket', 'Cabin', 'PassengerId'], axis=1) 
+
 
 # The data is now ready to go. So lets fit to the train, then predict to the test!
 # Convert back to a numpy array
-train_data = train_df.values
-test_data = test_df.values
-
+train_data = train_df[ train_df.agePresent == 1 ].values
+test_data = test_df[ test_df.agePresent == 1 ].values
 
 print 'Training...'
 forest = RandomForestClassifier(n_estimators=100)
@@ -87,10 +88,22 @@ forest = forest.fit( train_data[0::,1::], train_data[0::,0] )
 print 'Predicting...'
 output = forest.predict(test_data).astype(int)
 
-
 predictions_file = open("../data/improved_random_forest.csv", "wb")
 open_file_object = csv.writer(predictions_file)
 open_file_object.writerow(["PassengerId","Survived"])
-open_file_object.writerows(zip(ids, output))
+open_file_object.writerows(zip(age_present_ids, output))
+
+
+train_df_copy = train_df_copy.drop(['Name', 'Sex', 'Ticket', 'Cabin', 'PassengerId','Age'], axis=1)
+test_df_copy = test_df_copy.drop(['Name', 'Sex', 'Ticket', 'Cabin', 'PassengerId','Age'], axis=1) 
+train_data = train_df_copy.values
+test_data = test_df_copy[ test_df.agePresent == 0 ].values
+
+forest = RandomForestClassifier(n_estimators=100)
+forest = forest.fit( train_data[0::,1::], train_data[0::,0] )
+
+output = forest.predict(test_data).astype(int)
+
+open_file_object.writerows(zip(age_absent_ids, output))
 predictions_file.close()
 print 'Done.'
