@@ -1,4 +1,4 @@
-# TEXT CLASSIFICATION FOR SENTIMENT ANALYSIS – NAIVE BAYES CLASSIFIER
+# TEXT CLASSIFICATION FOR SENTIMENT ANALYSIS NAIVE BAYES CLASSIFIER
 # Bag of Words Feature Extraction
 import nltk.classify.util
 from nltk.classify import NaiveBayesClassifier

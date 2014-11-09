@@ -1,0 +1,272 @@
+PhraseId	SentenceId	Phrase	Sentiment
+1	1	A series of escapades demonstrating the adage that what is good for the goose is also good for the gander , some of which occasionally amuses but none of which amounts to much of a story .	1
+2	1	A series of escapades demonstrating the adage that what is good for the goose	2
+3	1	A series	2
+4	1	A	2
+5	1	series	2
+6	1	of escapades demonstrating the adage that what is good for the goose	2
+7	1	of	2
+8	1	escapades demonstrating the adage that what is good for the goose	2
+9	1	escapades	2
+10	1	demonstrating the adage that what is good for the goose	2
+11	1	demonstrating the adage	2
+12	1	demonstrating	2
+13	1	the adage	2
+14	1	the	2
+15	1	adage	2
+16	1	that what is good for the goose	2
+17	1	that	2
+18	1	what is good for the goose	2
+19	1	what	2
+20	1	is good for the goose	2
+21	1	is	2
+22	1	good for the goose	3
+23	1	good	3
+24	1	for the goose	2
+25	1	for	2
+26	1	the goose	2
+27	1	goose	2
+28	1	is also good for the gander , some of which occasionally amuses but none of which amounts to much of a story .	2
+29	1	is also good for the gander , some of which occasionally amuses but none of which amounts to much of a story	2
+30	1	is also	2
+31	1	also	2
+32	1	good for the gander , some of which occasionally amuses but none of which amounts to much of a story	2
+33	1	for the gander , some of which occasionally amuses but none of which amounts to much of a story	2
+34	1	the gander , some of which occasionally amuses but none of which amounts to much of a story	1
+35	1	the gander ,	2
+36	1	the gander	2
+37	1	gander	2
+38	1	,	2
+39	1	some of which occasionally amuses but none of which amounts to much of a story	2
+40	1	some of which	2
+41	1	some	2
+42	1	of which	2
+43	1	which	2
+44	1	occasionally amuses but none of which amounts to much of a story	2
+45	1	occasionally	2
+46	1	amuses but none of which amounts to much of a story	2
+47	1	amuses	3
+48	1	but none of which amounts to much of a story	1
+49	1	but	2
+50	1	none of which amounts to much of a story	1
+51	1	none	2
+52	1	of which amounts to much of a story	2
+53	1	which amounts to much of a story	2
+54	1	amounts to much of a story	2
+55	1	amounts	2
+56	1	to much of a story	2
+57	1	to	2
+58	1	much of a story	2
+59	1	much	2
+60	1	of a story	2
+61	1	a story	2
+62	1	story	2
+63	1	.	2
+64	2	This quiet , introspective and entertaining independent is worth seeking .	4
+65	2	This quiet , introspective and entertaining independent	3
+66	2	This	2
+67	2	quiet , introspective and entertaining independent	4
+68	2	quiet , introspective and entertaining	3
+69	2	quiet	2
+70	2	, introspective and entertaining	3
+71	2	introspective and entertaining	3
+72	2	introspective and	3
+73	2	introspective	2
+74	2	and	2
+75	2	entertaining	4
+76	2	independent	2
+77	2	is worth seeking .	3
+78	2	is worth seeking	4
+79	2	is worth	2
+80	2	worth	2
+81	2	seeking	2
+82	3	Even fans of Ismail Merchant 's work , I suspect , would have a hard time sitting through this one .	1
+83	3	Even fans of Ismail Merchant 's work	2
+84	3	Even fans	2
+85	3	Even	2
+86	3	fans	3
+87	3	of Ismail Merchant 's work	2
+88	3	Ismail Merchant 's work	2
+89	3	Ismail Merchant 's	2
+90	3	Ismail	2
+91	3	Merchant 's	2
+92	3	Merchant	2
+93	3	's	2
+94	3	work	2
+95	3	, I suspect , would have a hard time sitting through this one .	1
+96	3	, I suspect ,	2
+97	3	I suspect ,	2
+98	3	I suspect	2
+99	3	I	2
+100	3	suspect	2
+101	3	would have a hard time sitting through this one .	1
+102	3	would have a hard time sitting through this one	0
+103	3	would	2
+104	3	have a hard time sitting through this one	0
+105	3	have	2
+106	3	a hard time sitting through this one	1
+107	3	a hard time	1
+108	3	hard time	1
+109	3	hard	2
+110	3	time	2
+111	3	sitting through this one	1
+112	3	sitting	2
+113	3	through this one	2
+114	3	through	2
+115	3	this one	2
+116	3	one	2
+117	4	A positively thrilling combination of ethnography and all the intrigue , betrayal , deceit and murder of a Shakespearean tragedy or a juicy soap opera .	3
+118	4	A positively thrilling combination of ethnography and all the intrigue , betrayal , deceit and murder of a Shakespearean tragedy or a juicy soap opera	4
+119	4	A positively thrilling combination of ethnography and all the intrigue , betrayal , deceit and murder	4
+120	4	A positively thrilling combination	3
+121	4	positively thrilling combination	3
+122	4	positively	3
+123	4	thrilling combination	3
+124	4	thrilling	4
+125	4	combination	2
+126	4	of ethnography and all the intrigue , betrayal , deceit and murder	2
+127	4	ethnography and all the intrigue , betrayal , deceit and murder	2
+128	4	ethnography and	2
+129	4	ethnography	2
+130	4	all the intrigue , betrayal , deceit and murder	2
+131	4	all	2
+132	4	the intrigue , betrayal , deceit and murder	1
+133	4	intrigue , betrayal , deceit and murder	2
+134	4	intrigue	3
+135	4	, betrayal , deceit and murder	2
+136	4	betrayal , deceit and murder	1
+137	4	betrayal	2
+138	4	, deceit and murder	1
+139	4	deceit and murder	1
+140	4	deceit and	2
+141	4	deceit	1
+142	4	murder	1
+143	4	of a Shakespearean tragedy or a juicy soap opera	2
+144	4	a Shakespearean tragedy or a juicy soap opera	2
+145	4	a Shakespearean tragedy or	2
+146	4	a Shakespearean tragedy	1
+147	4	Shakespearean tragedy	2
+148	4	Shakespearean	2
+149	4	tragedy	1
+150	4	or	2
+151	4	a juicy soap opera	3
+152	4	juicy soap opera	3
+153	4	juicy	3
+154	4	soap opera	1
+155	4	soap	2
+156	4	opera	2
+157	5	Aggressive self-glorification and a manipulative whitewash .	1
+158	5	Aggressive self-glorification and a manipulative whitewash	0
+159	5	Aggressive	2
+160	5	self-glorification and a manipulative whitewash	0
+161	5	self-glorification and	1
+162	5	self-glorification	2
+163	5	a manipulative whitewash	1
+164	5	manipulative whitewash	1
+165	5	manipulative	2
+166	5	whitewash	2
+167	6	A comedy-drama of nearly epic proportions rooted in a sincere performance by the title character undergoing midlife crisis .	4
+168	6	A comedy-drama of nearly epic proportions	3
+169	6	A comedy-drama	2
+170	6	comedy-drama	2
+171	6	of nearly epic proportions	3
+172	6	nearly epic proportions	2
+173	6	nearly epic	4
+174	6	nearly	2
+175	6	epic	3
+176	6	proportions	2
+177	6	rooted in a sincere performance by the title character undergoing midlife crisis .	4
+178	6	rooted in a sincere performance by the title character undergoing midlife crisis	3
+179	6	rooted in a sincere performance	3
+180	6	rooted	3
+181	6	in a sincere performance	4
+182	6	in	2
+183	6	a sincere performance	4
+184	6	sincere performance	4
+185	6	sincere	3
+186	6	performance	2
+187	6	by the title character undergoing midlife crisis	2
+188	6	by	2
+189	6	the title character undergoing midlife crisis	2
+190	6	the title character	2
+191	6	title character	2
+192	6	title	2
+193	6	character	2
+194	6	undergoing midlife crisis	2
+195	6	undergoing	2
+196	6	midlife crisis	1
+197	6	midlife	2
+198	6	crisis	2
+199	7	Narratively , Trouble Every Day is a plodding mess .	1
+200	7	Narratively	2
+201	7	, Trouble Every Day is a plodding mess .	1
+202	7	Trouble Every Day is a plodding mess .	0
+203	7	Trouble Every Day	2
+204	7	Trouble	1
+205	7	Every Day	2
+206	7	Every	2
+207	7	Day	2
+208	7	is a plodding mess .	1
+209	7	is a plodding mess	0
+210	7	a plodding mess	1
+211	7	plodding mess	0
+212	7	plodding	1
+213	7	mess	1
+214	8	The Importance of Being Earnest , so thick with wit it plays like a reading from Bartlett 's Familiar Quotations	3
+215	8	The Importance	2
+216	8	Importance	3
+217	8	of Being Earnest , so thick with wit it plays like a reading from Bartlett 's Familiar Quotations	2
+218	8	Being Earnest , so thick with wit it plays like a reading from Bartlett 's Familiar Quotations	3
+219	8	Being	2
+220	8	Earnest , so thick with wit it plays like a reading from Bartlett 's Familiar Quotations	2
+221	8	Earnest ,	3
+222	8	Earnest	3
+223	8	so thick with wit it plays like a reading from Bartlett 's Familiar Quotations	2
+224	8	so	2
+225	8	thick with wit it plays like a reading from Bartlett 's Familiar Quotations	3
+226	8	thick	2
+227	8	with wit it plays like a reading from Bartlett 's Familiar Quotations	3
+228	8	with	2
+229	8	wit it plays like a reading from Bartlett 's Familiar Quotations	2
+230	8	wit	2
+231	8	it plays like a reading from Bartlett 's Familiar Quotations	2
+232	8	it	2
+233	8	plays like a reading from Bartlett 's Familiar Quotations	3
+234	8	plays	2
+235	8	like a reading from Bartlett 's Familiar Quotations	2
+236	8	like	2
+237	8	a reading from Bartlett 's Familiar Quotations	2
+238	8	a reading	2
+239	8	reading	2
+240	8	from Bartlett 's Familiar Quotations	2
+241	8	from	2
+242	8	Bartlett 's Familiar Quotations	2
+243	8	Bartlett 's	2
+244	8	Bartlett	2
+245	8	Familiar Quotations	2
+246	8	Familiar	2
+247	8	Quotations	2
+248	9	But it does n't leave you with much .	1
+249	9	it does n't leave you with much .	1
+250	9	does n't leave you with much .	1
+251	9	does n't leave you with much	1
+252	9	does n't	1
+253	9	does	2
+254	9	n't	2
+255	9	leave you with much	2
+256	9	leave you	2
+257	9	leave	1
+258	9	you	2
+259	9	with much	2
+260	10	You could hate it for the same reason .	1
+261	10	could hate it for the same reason .	1
+262	10	could hate it for the same reason	0
+263	10	could	2
+264	10	hate it for the same reason	1
+265	10	hate it	0
+266	10	hate	0
+267	10	for the same reason	2
+268	10	the same reason	2
+269	10	same reason	2
+270	10	same	2
+271	10	reason	2
