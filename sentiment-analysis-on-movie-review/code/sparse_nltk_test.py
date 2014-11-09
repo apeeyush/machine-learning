@@ -11,21 +11,20 @@ print "Loading Data..."
 train_df = pd.read_table('../data/train.tsv', header=0)
 movie_data = []
 for index, row in train_df.iterrows():
-	if(row['Sentiment'] < 2):
+	if row['Sentiment'] < 2:
 		tup = (row['Phrase'] ,'neg')
-	else:
+	elif row['Sentiment'] > 2:
 		tup = (row['Phrase'] ,'pos')
 	movie_data.append(tup)
 
 # Tokenize reviews for use by NaiveBayesClassifier
-print "Tokenizing Data..."
-all_words = set(word.lower() for passage in movie_data for word in word_tokenize(passage[0]))
-train_data = [({word: (word in word_tokenize(x[0])) for word in all_words}, x[1]) for x in movie_data]
+print "Tokenizing Data (Using Sparsed Forms)..."
+train_data = [({word: 'true' for word in word_tokenize(x[0])}, x[1]) for x in movie_data]
 
 # Classify Data using NaiveBayesClassifier
 print "Start Training on Data..."
 classifier = NaiveBayesClassifier.train(train_data)
-classifier.show_most_informative_features()
+classifier.show_most_informative_features(n=20)
 
 # Test accuracy of model
 # print 'accuracy:', nltk.classify.util.accuracy(classifier, testfeats)
