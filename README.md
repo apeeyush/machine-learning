@@ -1,5 +1,4 @@
-Hacker's Guide to Machine Learning and Predictive Modelling
-======
+## Hacker's Guide to Machine Learning and Predictive Modelling
 
 In November 2014, I completed [Andrew Ng's Machine Learning course](https://www.coursera.org/course/ml) and wanted to apply some of the techniques I learnt to see how they work in real world situations. I realized that there are very few practical machine learning guides available on internet. This project aims to fill this hole.
 
@@ -15,3 +14,6 @@ It is a kaggle competition with the goal of taking an image of a handwritten sin
 ### [Sentiment Analysis on Movie Reviews](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews)
 It is a kaggle competition which presents a chance to benchmark our sentiment-analysis ideas on the Rotten Tomatoes dataset. We are asked to label phrases on a scale of five values: negative, somewhat negative, neutral, somewhat positive, positive. Obstacles like sentence negation, sarcasm, terseness, language ambiguity, and many others make this task very challenging.
 
+## License
+
+All code in this repository is released under the [MIT License](http://www.opensource.org/licenses/MIT).
